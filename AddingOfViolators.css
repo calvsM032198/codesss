@@ -1,0 +1,43 @@
+.input--container {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+.input--container .form {
+    margin: 20px;
+    
+}
+input {
+    height: 40px;
+    border-radius: 3px;
+    margin: 6px;
+    width: 100%;
+    border: none;
+    background-color: #dddddd;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+
+}
+.tblviolator {
+    margin: 15px;
+    border-spacing: 15px;
+    
+}
+.tblviolator td {
+    width: 50%;
+}
+.tblviolator th, td {
+    border: none;
+}
+input[type=submit] {
+    color: #787878;
+}
+input[type=submit] :hover {
+    cursor: pointer;
+    background-color: transparent;
+    border: #dddddd 1px solid;
+}
+.hidebtn {
+    display: none;
+}
